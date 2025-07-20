@@ -34,7 +34,7 @@ def fetch_image(search_title: str):
 
 # Streamlit-appconfig
 st.set_page_config(page_title="📅 Feitjes van Vandaag", layout="wide")
-st.title("📅 Feitjes van Vandaag inclusief afbeeldingen & datumkiezer")
+st.title("📅 Feitjes van Vandaag inclusief datumkiezer door Sebastian Hoving")
 
 # Datumkiezer component
 chosen_date = st.date_input("Kies een datum:", value=datetime.date.today())
